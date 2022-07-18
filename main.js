@@ -15,8 +15,17 @@ async function run() {
     //get number of nonempty rows of first col as 
     for(let i=0;i<7;i++){
         // get classifier
+        await getClassifier();
         // append classifier to input.csv
+        await appendClassifier();
     }
 
 }
 run();
+
+async function getClassifier() {
+
+}
+async function appendClassifier() {
+
+}
