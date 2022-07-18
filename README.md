@@ -7,3 +7,4 @@ Automate using builtWith.com to classify if the given website is built on Shopif
 
 Scope of improvement:
 1. Instead of assuming 7 websites as mentioned in the input file, we can iterate till we get empty object by initially removing all empty cells in between the input column.
+2. Instead of using puppeteer library to manually search through dom structure, we can use builtWith api to get the classifier of the website. 
