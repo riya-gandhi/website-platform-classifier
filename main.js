@@ -11,22 +11,12 @@ let xl = require('excel4node');
 
 let args = minimist(process.argv);
 
-//take input from csv
-
 async function run() {
-  // start the browser
-  let browser = await puppeteer.launch({
-    headless: false,
-    args: ["--start-maximized"],
-    defaultViewport: null,
-  });
-
-  // get the tabs (there is only one tab)
-  let pages = await browser.pages();
-  let page = pages[0];
-
-  // open the url
-  await page.goto(args.url);
+    //get number of nonempty rows of first col as 
+    for(let i=0;i<7;i++){
+        // get classifier
+        // append classifier to input.csv
+    }
 
 }
 run();
